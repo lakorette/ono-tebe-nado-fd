@@ -1,2 +1,5 @@
 #Apple files
 .DS_Store
+
+#Heavy files
+.png
