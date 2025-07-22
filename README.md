@@ -1,1 +1,1 @@
-https://github.com/lakorette/ono-tebe-nado-fd
+https://github.com/lakorette/ono-tebe-nado
