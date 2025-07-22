@@ -21,7 +21,9 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">главная</li>
+          <li class="header__links-list-item_no-bullit">
+            <a class="header__links-list-item-link_no-underline"> главная </a>
+          </li>
           <li class="header__links-list-item">
             <a class="header__links-list-item-link" href="#lots">
               посмотреть лоты&nbsp;
@@ -54,26 +56,23 @@
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text">
-            <span class="aligned-text-left letter-spacing-extended">оно</span>
-            <span class="aligned-text-center letter-spacing-extended"
-              >тебе</span
-            >
+            <span class="aligned-text-left">оно</span>
+            <span class="aligned-text-center">тебе</span>
             <span class="aligned-text-right">
-              <span class="letter-spacing-extended">над</span>
+              над
               <span class="no-letter-spacing">о</span>
             </span>
           </span>
         </h1>
         <div class="description">
           <p class="cover__description-text">
-            <span class="big-word-spacing">аукцион вещей, в </span>
-            <span class="small-word-spacing">которые никто не верил</span>
+            аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">сделать ставку</button>
+          <button class="bet-button" type="button">сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
-        <h1 class="lots__heading">Лоты</h1>
+        <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
@@ -84,7 +83,8 @@
                 </h2>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой оыла оы ваша
-                  ставка если бы вы не знали, что режиссер — пол томас Андерсон?
+                  ставка, если бы вы не знали, что режиссер — пол томас
+                  Андерсон?
                 </p>
               </article>
             </a>
@@ -127,7 +127,7 @@
         <a class="lots__look-more-link" href="#0">Посмотреть больше</a>
       </section>
       <section class="about" id="about">
-        <div class="about__area first-row first-column">
+        <div class="about__column">
           <div class="about__logo">
             <img
               class="about__logo-image"
@@ -136,10 +136,8 @@
             >
           </div>
         </div>
-        <div class="about__area first-row second-column">
-          <h1 class="about__title">Об аукционе</h1>
-        </div>
-        <div class="about__area second-row second-column">
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text paragraph-with-margin">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
