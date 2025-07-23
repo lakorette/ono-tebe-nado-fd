@@ -1,4 +1,4 @@
-/*
+
 .pixel-perfect {
   position: absolute;
   top: 0;
@@ -9,7 +9,7 @@
   filter: sepia(0.6);
   transform: translateX(-50%);
 }
-*/
+
 
 .header {
   display: grid;
@@ -25,7 +25,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .header__links-list {
@@ -59,7 +59,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .header__address {
@@ -105,7 +105,7 @@
   font-size: 100px;
   font-style: normal;
   line-height: 115%;
-  letter-spacing: 30%;
+  letter-spacing: 30px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -155,7 +155,7 @@
   font-size: 22px;
   font-style: normal;
   line-height: 28px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
   word-spacing: 19px;
 }
@@ -169,7 +169,7 @@
   font-size: 22px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
   background: transparent;
@@ -191,14 +191,14 @@
   font-size: 40px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 25px;
+  gap: 25px 25px;
   list-style: none;
 }
 
@@ -246,7 +246,7 @@
   font-size: 22px;
   font-style: normal;
   line-height: 120%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-decoration: underline;
   text-underline-position: under;
   text-transform: uppercase;
@@ -262,7 +262,7 @@
   font-size: 20px;
   font-style: normal;
   line-height: 120%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .lots__look-more-link {
@@ -272,7 +272,7 @@
   font-size: 20px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-decoration: underline;
   text-transform: lowercase;
 }
@@ -312,7 +312,7 @@
   font-size: 40px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -322,7 +322,7 @@
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
 }
 
 .paragraph-with-margin {
@@ -367,7 +367,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   text-transform: lowercase;
 }

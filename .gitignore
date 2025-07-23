@@ -1,5 +1,5 @@
 #Apple files
-.DS_Store
+*.DS_Store
 
 #Heavy files
-.png
+*.png
